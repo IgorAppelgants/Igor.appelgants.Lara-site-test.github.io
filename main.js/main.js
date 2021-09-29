@@ -60,7 +60,7 @@ let   img   = document.querySelector('.round-bag-img'),
 
 range.value = 0;
 range.max   = images.length - 1;
-img.src     = '/img/360/' + images[0];
+img.src     = './img/360/' + images[0];
 
 range.oninput = function(){
 	img.src = '/img/360/' + images[range.value]
